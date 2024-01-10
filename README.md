@@ -70,6 +70,6 @@
      - Movie Suggestions
         - MovieLists * N
 
--Netflix GPT
+- Cine-Insight
   - Search Bar
   - Movie Suggestions
