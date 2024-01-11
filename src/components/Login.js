@@ -148,9 +148,24 @@ const Login = () => {
           className="py-4 cursor-pointer text-white"
           onClick={toggleSignInForm}
         >
-          {isSignInForm
-            ? "New to CineInsight? Sign Up Now"
-            : "Already regstered? Sign In Now..."}
+          {isSignInForm ? (
+            <span>
+              New to CineInsight?{" "}
+              <span style={{ color: "blue", textDecoration: "underline" }}>
+              
+                Sign Up
+              </span>{" "}
+              Now
+            </span>
+          ) : (
+            <span>
+              Already regstered?{" "}
+              <span style={{ color: "blue", textDecoration: "underline" }}>
+                Sign In
+              </span>{" "}
+              Now...
+            </span>
+          )}
         </p>
       </form>
     </div>
