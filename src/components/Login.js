@@ -112,7 +112,7 @@ const Login = () => {
 
       <form
         onSubmit={(e) => e.preventDefault()}
-        className="absolute w-full mx-auto p-4 md:w-1/4 bg-black right-0 left-0 sm:px-10 sm:my-6 sm:py-2 sm:mx-auto  md:px-12 md:py-4  my-52  md:mt-[40%] lg:my-36 bg-opacity-90 rounded-md"
+        className="absolute w-full mx-auto p-4 md:w-1/4 bg-black right-0 left-0 sm:px-10 sm:my-6 sm:py-2 sm:mx-auto  md:px-12 md:py-4 overflow-x-hidden md:my-52  md:mt-[40%] lg:my-36 bg-opacity-90 rounded-md"
       >
         <h1 className="font-bold text-white text-xl md:text-2xl py-4">
           {isSignInForm ? "Sign In" : "Sign Up"}
@@ -170,7 +170,7 @@ const Login = () => {
         <span className="text-green-600">
           {`${
             isSignInForm
-              ? `Try with Default Username(user123@gmail.com) and Password(User@123)`
+              ? `Try with Default Username (user123@gmail.com) and Password (User@123)`
               : ""
           }`}
         </span>
