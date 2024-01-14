@@ -152,7 +152,6 @@ const Login = () => {
             <span>
               New to CineInsight?{" "}
               <span style={{ color: "blue", textDecoration: "underline" }}>
-              
                 Sign Up
               </span>{" "}
               Now
@@ -167,6 +166,14 @@ const Login = () => {
             </span>
           )}
         </p>
+
+        <span className="text-green-600">
+          {`${
+            isSignInForm
+              ? `Try with Default Username(user123@gmail.com) and Password(User@123)`
+              : ""
+          }`}
+        </span>
       </form>
     </div>
   );
