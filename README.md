@@ -1,3 +1,7 @@
+# Live link- https://cine-insight-aarti.netlify.app/
+
+
+
 # Cine-Insight
 
 - Create React App
@@ -59,7 +63,7 @@
 
 # Features
 
--Login/Sign UP
+- Login/Sign UP
    - Sign In/ Sign up Form
    - redirect to Browse Page
 - Browse (after authentication)
